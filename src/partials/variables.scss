@@ -5,6 +5,25 @@ $h100: 100px;
 
 // margini
 $ml-100: 100px;
+
+@for $i from 1 through 5 {
+  .mt-#{$i} {
+  margin-top: 15px * $i;
+  }
+}
+
+@for $i from 1 through 5 {
+  .mb-#{$i} {
+  margin-bottom: 15px * $i;
+  }
+}
+
+@for $i from 1 through 5 {
+  .mtb-#{$i} {
+  margin-top: 15px * $i;
+  margin-bottom: 15px * $i;
+  }
+}
 // mixin
 @mixin sfondo {
   background-position: center;
