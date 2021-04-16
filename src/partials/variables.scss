@@ -8,20 +8,20 @@ $ml-100: 100px;
 
 @for $i from 1 through 5 {
   .mt-#{$i} {
-  margin-top: 15px * $i;
+    margin-top: 15px * $i;
   }
 }
 
 @for $i from 1 through 5 {
   .mb-#{$i} {
-  margin-bottom: 15px * $i;
+    margin-bottom: 15px * $i;
   }
 }
 
 @for $i from 1 through 5 {
   .mtb-#{$i} {
-  margin-top: 15px * $i;
-  margin-bottom: 15px * $i;
+    margin-top: 15px * $i;
+    margin-bottom: 15px * $i;
   }
 }
 // mixin
@@ -32,10 +32,14 @@ $ml-100: 100px;
 
 // colori
 $text1: #fff;
+$text2: #505050;
+$text3: #2c2c2c;
 $normaltext: black;
 $colorB-300: #1473e6;
 $colorB-400:#0d66d0;
 
 // font
 $fontbig: 44px;
+$fontgra: 36px;
 $fontmed: 22px;
+$fontsmall: 18px;

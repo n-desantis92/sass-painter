@@ -11,15 +11,16 @@
   <title>Sass Painter</title>
 </head>
 <body>
-  <header>
-    <nav>
+  <div id="app" class="container">
+    <header>
+      <nav>
 
-    </nav>
-    <div class="hero">
-      <div class="container-title">
-        <div class="logo">
-          <img src="https://www.adobe.com/content/dam/cc/us/en/creativecloud/max2020/mnemonics/photoshop.svg" alt="">
-        </div>
+      </nav>
+      <div class="hero">
+        <div class="container-title">
+          <div class="logo">
+            <img src="https://www.adobe.com/content/dam/cc/us/en/creativecloud/max2020/mnemonics/photoshop.svg" alt="">
+          </div>
           <h1 class="mtb-2">Crea. Credi in te. Fidati di Photoshop.</h1>
           <h3>Accedi a Photoshop su PC e iPad a soli 9,75 €/mese.</h3>
           <div class="buttons mtb-2">
@@ -28,9 +29,30 @@
               <button>Acquista</button>
             </div>
           </div>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
+    <main>
+      <section class="introduction ">
+        <h2 class="">Segui la tua immaginazione, ovunque ti porti.</h2>
+        <p class="mt-1">Fotoritocco, composizione, pittura digitale, animazione e progettazione grafica: puoi fare tutto in Photoshop. Dai vita alle idee su PC e iPad, trasforma le immagini come per magia sfruttando la potenza dell'IA, acquisisci nuove competenze e condividi i tuoi progetti in live streaming. L’ultima versione di Photoshop è più veloce, più intelligente e più intuitiva che mai.</p>
+      </section>
+      <section class="features" v-for="">
+        <div class="features-img">
+          <video class=" video-mobile
+          video-tablet
+          video-desktop
+          " preload="metadata" playsinline="" muted="" loop="" poster="https://cc-prod.scene7.com/is/image/CCProdAuthor/dt_ps_riverflow__1?$pjpeg$&amp;jpegSize=200&amp;wid=660">
+          <source src="https://images-tv.adobe.com/mpcv3/1041/306aed77-cd2b-4298-9097-48ae9680c011_1600721058.960x540at1200_h264.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="features-text">
+          <h2>Ritocca, sostituisci, assembla, wow!</h2>
+          <p class="mt-1">Realizza ritratti da manuale con soggetti più espressivi, sostituisci il cielo con un clic, rimuovi gli oggetti, applica ritocchi e ricolora una scena. Grazie a strumenti di fotoritocco avanzati e a nuove funzionalità intelligenti per la creazione di effetti magici, puoi trasformare le immagini in opere d’arte.</p>
+        </div>
+      </section>
+    </main>
+  </div>
   <script src="dist/app.js" charset="utf-8"></script>
 </body>
 </html>
