@@ -2,3 +2,9 @@
 $maxL: 100%;
 // altezze
 $h100: 100px;
+
+// mixin
+@mixin sfondo {
+  background-position: center;
+  background-size: cover;
+}

@@ -1,6 +1,7 @@
 .hero {
   width: $maxL;
-  height: calc(100vh - 100px);
+  height: 120vh;
   background-color: blue;
-  background-image: url();
+  background-image: url(../../img/herobg.jpg);
+  @include sfondo;
 }
