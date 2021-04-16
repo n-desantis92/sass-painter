@@ -12,6 +12,7 @@
   &:hover {
     background-color: $text1;
     color: $normaltext;
+    cursor: pointer;
   }
 }
 
@@ -28,5 +29,6 @@
 
   &:hover {
     background-color: $colorB-400;
+    cursor: pointer;
   }
 }
