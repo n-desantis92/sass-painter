@@ -4,4 +4,27 @@
   background-color: blue;
   background-image: url(../../img/herobg.jpg);
   @include sfondo;
+
+  .container-title {
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+    margin-left: $ml-100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $text1;
+
+    & img {
+      width: 70px;
+    }
+
+    .buttons button:nth-child(1) {
+      @include bt-trasp;
+    }
+
+    .buttons button:nth-child(2) {
+      @include bt-blue-300;
+    }
+  }
 }

@@ -3,8 +3,16 @@ $maxL: 100%;
 // altezze
 $h100: 100px;
 
+// margini
+$ml-100: 100px;
 // mixin
 @mixin sfondo {
   background-position: center;
   background-size: cover;
 }
+
+// colori
+$text1: #fff;
+$normaltext: black;
+$colorB-300: #1473e6;
+$colorB-400:#0d66d0;

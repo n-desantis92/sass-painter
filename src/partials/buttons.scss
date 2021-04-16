@@ -1,0 +1,32 @@
+@mixin bt-trasp {
+  background-color: inherit;
+  color: $text1;
+  border-color: $text1;
+  padding: 10px 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 20px;
+
+  &:hover {
+    background-color: $text1;
+    color: $normaltext;
+  }
+}
+
+@mixin bt-blue-300 {
+  background-color: $colorB-300;
+  color: $text1;
+  border-color: $colorB-300;
+  padding: 10px 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 20px;
+
+  &:hover {
+    background-color: $colorB-400;
+  }
+}
