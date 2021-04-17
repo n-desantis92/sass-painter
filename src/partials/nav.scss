@@ -1,5 +1,70 @@
 nav {
   width: $maxL;
-  height: $h100;
-  background-color: red;
+  height: $hnav;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & div.logo {
+    width: 150px;
+    height: 25px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    color: red;
+    margin-left: 25px;
+
+    img {
+      height: 100%;
+    }
+
+    h2 {
+      margin-left: 5px;
+      font-size: $fontsmall;
+      font-weight: 400;
+    }
+  }
+
+  div.nav-cener {
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin: 0 10px;
+        padding: 10px;
+        font-size: $fontmini;
+        cursor: pointer;
+      }
+    }
+  }
+
+  div.stato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      padding: 10px;
+      cursor: pointer;
+
+      &:hover {
+        color: $colorB-300;
+
+      }
+    }
+
+    a {
+      padding: 10px;
+      margin-right: 10px;
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        color: $colorB-300;
+
+      }
+    }
+  }
 }
