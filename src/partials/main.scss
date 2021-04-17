@@ -29,6 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 
   &:nth-child(2n + 1) {
     flex-direction: row-reverse;
@@ -48,7 +49,7 @@
     object-fit: contain;
     object-position: center;
   }
-// `img/{{sez.img}}`
+
   & div.features-text {
     h2 {
       font-size: $fontgra;

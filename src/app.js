@@ -24,7 +24,7 @@ var app = new Vue({
         titleSez: "Il tuo punto di riferimento per progettare grafiche di grande impatto.",
         parag: "Poster, packaging, banner, siti web: la progettazione grafica inizia con Photoshop. Combina foto, grafiche e testi per creare immagini completamente nuove, seleziona i soggetti con un clic e gioca con colori ed effetti per perfezionare ogni progetto di design.",
         video: "https://images-tv.adobe.com/mpcv3/1041/306aed77-cd2b-4298-9097-48ae9680c011_1600721058.960x540at1200_h264.mp4",
-        img: "spotify.webp",
+        img: "spotyfy.webp",
       },
     ],
   },
