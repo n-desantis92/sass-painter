@@ -1,1 +1,190 @@
+.mt-1 {
+  margin-top: 15px;
+}
 
+.mt-2 {
+  margin-top: 30px;
+}
+
+.mt-3 {
+  margin-top: 45px;
+}
+
+.mt-4 {
+  margin-top: 60px;
+}
+
+.mt-5 {
+  margin-top: 75px;
+}
+
+.mb-1 {
+  margin-bottom: 15px;
+}
+
+.mb-2 {
+  margin-bottom: 30px;
+}
+
+.mb-3 {
+  margin-bottom: 45px;
+}
+
+.mb-4 {
+  margin-bottom: 60px;
+}
+
+.mb-5 {
+  margin-bottom: 75px;
+}
+
+.mtb-1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mtb-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mtb-3 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.mtb-4 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.mtb-5 {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.hero {
+  width: 100%;
+  height: 120vh;
+  background-color: blue;
+  background-image: url(/images/herobg.jpg?cfce85d8bd0b22e3fd38b8be2cdc49f1);
+  background-position: center;
+  background-size: cover;
+}
+.hero .container-title {
+  width: 40%;
+  height: 100%;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.hero .container-title img {
+  width: 70px;
+}
+.hero .container-title h1 {
+  font-size: 44px;
+}
+.hero .container-title h3 {
+  font-size: 22px;
+}
+.hero .container-title .buttons button:nth-child(1) {
+  background-color: inherit;
+  color: #fff;
+  border-color: #fff;
+  padding: 10px 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 20px;
+}
+.hero .container-title .buttons button:nth-child(1):hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+.hero .container-title .buttons button:nth-child(2) {
+  background-color: #1473e6;
+  color: #fff;
+  border-color: #1473e6;
+  padding: 10px 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.hero .container-title .buttons button:nth-child(2):hover {
+  background-color: #0d66d0;
+  cursor: pointer;
+}
+
+.introduction {
+  text-align: center;
+  width: 80%;
+  height: 400px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction h2 {
+  width: 84%;
+  font-size: 44px;
+}
+.introduction p {
+  width: 78%;
+  font-size: 18px;
+}
+
+.features {
+  width: 100%;
+  height: 70vh;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features .row-revers {
+  flex-direction: row-reverse;
+}
+.features video {
+  margin: 0 50px;
+  width: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+.features div.features-text h2 {
+  font-size: 36px;
+  color: #2c2c2c;
+}
+.features div.features-text p {
+  font-size: 18px;
+  color: #505050;
+  line-height: 30px;
+  font-weight: 500;
+}

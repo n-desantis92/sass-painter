@@ -30,8 +30,16 @@
   justify-content: center;
   align-items: center;
 
-  .row-revers {
+  &:nth-child(2n + 1) {
     flex-direction: row-reverse;
+    margin-top: 50px;
+  }
+
+  & img {
+    margin: 0 50px;
+    width: 600px;
+    object-fit: contain;
+    object-position: center;
   }
 
   & video {
@@ -40,7 +48,7 @@
     object-fit: contain;
     object-position: center;
   }
-
+// `img/{{sez.img}}`
   & div.features-text {
     h2 {
       font-size: $fontgra;
