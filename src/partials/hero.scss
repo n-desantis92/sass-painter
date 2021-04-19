@@ -1,7 +1,7 @@
 .hero {
   width: $maxL;
   height: 120vh;
-  background-image: url(../../img/herobg.jpg);
+  background-image: url(../img/herobg.jpg);
   @include sfondo;
 
   .container-title {
